@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet" />
     <title>Blackjack</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <h1 class="black-jack">
+      <img class="bee" src="./images/honeycomb-logo.png" alt="a honey bee" /> Blackjack
+    </h1>
+    <div class="dealer-section">
+      <p class="dealer-title">Dealer</p>
+      <div class="dealer-cards">
+        <img
+          class="dealer-image1 card-image"
+          src="./images/card-back.png"
+          alt="back of playing card"
+        />
+        <img
+          class="dealer-image2 card-image"
+          src="./images/card-back.png"
+          alt="back of playing card"
+        />
+      </div>
+    </div>
+    <div class="player-section">
+      <p class="player-title">Player</p>
+      <div class="player-cards">
+        <img src="./images/card-back.png" class="card-image" alt="back of playing card" />
+        <img src="./images/card-back.png" class="card-image" alt="back of playing card" />
+      </div>
+      <div class="player-buttons">
+        <button class="player-hit">Hit</button>
+        <button class="player-stay">Stay</button>
+      </div>
+    </div>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>

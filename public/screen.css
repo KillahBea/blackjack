@@ -10,3 +10,63 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+body::after {
+  content: '';
+  background: url('./images/honeycomb-black-white.svg');
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+
+.black-jack {
+  margin: 40px 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+.bee {
+  height: 40px;
+  width: 40px;
+  margin-top: 13px;
+}
+
+.dealer-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 2rem;
+  margin: 0% 0% 0% 20%;
+}
+
+.dealer-cards {
+  display: flex;
+}
+
+.dealer-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 2rem;
+  margin: 0% 0% 0% 20%;
+}
+
+.player-cards {
+  display: flex;
+}
+
+.card-image {
+  height: 200px;
+}
