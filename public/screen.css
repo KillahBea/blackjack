@@ -25,7 +25,7 @@ body::after {
 }
 
 .black-jack {
-  margin: 40px 20px;
+  margin: 30px 20px;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 4rem;
   font-weight: 900;
@@ -41,32 +41,60 @@ body::after {
 .dealer-title {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 2rem;
-  margin: 0% 0% 0% 20%;
+  margin: 0% 0% 0% 0%;
+  position: relative;
 }
 
 .dealer-cards {
   display: flex;
+  align-content: space-between;
+  justify-content: center;
 }
 
-.dealer-button {
+.player-buttons {
   display: flex;
   flex-direction: column;
+  margin: 0% 35%;
 }
 
 .player-title {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 2rem;
-  margin: 0% 0% 0% 20%;
+  margin: 0% 0% 0% 0%;
 }
 
 .player-cards {
   display: flex;
+  justify-content: center;
 }
 
-.card-image {
+.card-image1 {
+  height: 100px;
+}
+.card-image2 {
   height: 200px;
+}
+.player-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px;
+}
+.hit {
+  background-color: black;
+  color: white;
+  border: black solid 5px;
+  border-radius: 4%;
+}
+.stay {
+  background-color: black;
+  color: white;
+  border: black solid 5px;
+  border-radius: 4%;
 }
